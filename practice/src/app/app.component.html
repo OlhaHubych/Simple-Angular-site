@@ -1,0 +1,14 @@
+<nav>
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]='{exact: true}'>Home</a>
+    <a routerLink="/gallery" routerLinkActive="active">Gallery</a>
+    <a routerLink="contacts" routerLinkActive="active">Contacts</a>
+</nav>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+
+<footer>
+    &copy; Olha Hubych <br>
+    Photo by Dmitry Bayer
+    on https://unsplash.com/
+</footer>

@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 5vh;
+}
+a {
+    padding: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+a:hover {
+    background: black;
+    color: white;
+}
+.active {
+    background-color: red;
+    color: white;
+}
+
+footer {
+    text-align: right;
+}
+
+
