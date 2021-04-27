@@ -1,7 +1,6 @@
 nav {
     display: flex;
     justify-content: center;
-    align-content: center;
     min-height: 5vh;
 }
 a {
@@ -22,6 +21,15 @@ a:hover {
 
 footer {
     text-align: right;
+}
+
+@media screen and (max-width: 425px) {
+    nav, footer {
+        font-size: 0.8em;
+    }
+    footer {
+        text-align: center;
+    }
 }
 
 

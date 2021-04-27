@@ -1,6 +1,7 @@
 .gallery {
     background: linear-gradient(to bottom ,white, #438055 60%, white 100%);
 }
+
 .posts-box {
     border-radius: 0.5em;
     padding: .5em;
@@ -56,7 +57,11 @@ input {
     outline: none;
     font-size: 1em;
 }
-
+@media  screen and (max-width: 375px) {
+    .gallery, input, .search-box, .posts-box {
+        font-size: 0.8em;
+    }
+}
 input:focus {
     border-color: lightskyblue;
 }
